@@ -1,0 +1,9 @@
+[
+  {
+    "icon": "/pictos/picto_femme.svg",
+    "label": "Household",
+    "name": "income",
+    "root": "income",
+    "totalLabel": "Household income /year"
+  }
+]
