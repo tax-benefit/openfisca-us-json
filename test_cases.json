@@ -1,0 +1,58 @@
+[
+  {
+    "families": {
+      "Famille n°1": {
+        "adults": ["Adulte 1"],
+        "children": []
+      }
+    },
+    "people": {
+      "Adulte 1": {
+        "e00200p": {
+          "2019": 19002.42,
+          "2020": 19002.42,
+          "2021": 19002.42
+        }
+      }
+    },
+    "households": {
+      "Logement principal n°1": {
+        "adults": ["Adulte 1"],
+        "children": []
+      }
+    },
+    "title": "Célibataire, salarié, sans enfant"
+  },
+  {
+    "families": {
+      "Famille n°1": {
+        "adults": ["Adulte 1"],
+        "children": ["Enfant 1"]
+      }
+    },
+    "people": {
+      "Adulte 1": {
+        "age": {
+          "2021": 24
+        },
+        "e00200p": {
+          "2019": 19002.42,
+          "2020": 19002.42,
+          "2021": 19002.42
+        }
+      },
+      "Enfant 1": {
+        "age": {
+          "2021": 2
+        }
+      }
+    },
+    "households": {
+      "Logement principal n°1": {
+        "adults": ["Adulte 1"],
+        "children": ["Enfant 1"]
+      }
+    },
+    "title": "Célibataire, salarié, 1 enfant"
+  }
+]
