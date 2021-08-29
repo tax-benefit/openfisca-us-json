@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Education tax credits non-refundable amount from Form 8863 (includes c87668)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c07230",
+  "start_line_number": 496,
+  "stop_line_number": 501,
+  "value_type": "float"
+}

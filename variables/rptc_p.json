@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Refundable Payroll Tax Credit for taxpayer",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "rptc_p",
+  "start_line_number": 257,
+  "stop_line_number": 262,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "eternity",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/entity/tax_unit.py",
+  "json_type": "number",
+  "label": "Unique reference for this tax unit",
+  "name": "tax_unit_id",
+  "start_line_number": 5,
+  "stop_line_number": 10,
+  "value_type": "float"
+}

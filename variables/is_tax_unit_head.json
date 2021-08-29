@@ -1,0 +1,132 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "dtype": "bool_",
+  "entity": "person",
+  "file_path": "/openfisca_us/variables/entity/person.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "person",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 18,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 20,
+              "end_col_offset": 26,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 28,
+              "end_col_offset": 38,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 48,
+            "end_lineno": 3,
+            "lineno": 3,
+            "value": {
+              "ast_class": "Compare",
+              "col_offset": 11,
+              "comparators": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 47,
+                  "end_col_offset": 48,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": 0
+                }
+              ],
+              "end_col_offset": 48,
+              "end_lineno": 3,
+              "left": {
+                "ast_class": "Attribute",
+                "attr": "members_position",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 43,
+                "end_lineno": 3,
+                "lineno": 3,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "tax_unit",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 26,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 17,
+                    "end_lineno": 3,
+                    "id": "person",
+                    "lineno": 3
+                  }
+                }
+              },
+              "lineno": 3,
+              "ops": [
+                {
+                  "ast_class": "Eq"
+                }
+              ]
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 48,
+        "end_lineno": 3,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/entity/person.py",
+      "source_code": "def formula(person, period, parameters):\n    # Use order of input (first)\n    return person.tax_unit.members_position == 0\n",
+      "start_line_number": 25,
+      "stop_line_number": 28
+    }
+  },
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "label": "Head of tax unit",
+  "name": "is_tax_unit_head",
+  "referring_variables": [
+    "EIC",
+    "age_head"
+  ],
+  "start_line_number": 19,
+  "stop_line_number": 28,
+  "value_type": "bool"
+}

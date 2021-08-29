@@ -1,0 +1,161 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "taxunit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 19,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 21,
+              "end_col_offset": 27,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 29,
+              "end_col_offset": 39,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 63,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 11,
+              "end_col_offset": 63,
+              "end_lineno": 2,
+              "left": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 19,
+                    "end_col_offset": 27,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "earned"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 29,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 35,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 11,
+                "end_col_offset": 36,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 18,
+                  "end_lineno": 2,
+                  "id": "taxunit",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              },
+              "lineno": 2,
+              "op": {
+                "ast_class": "Sub"
+              },
+              "right": {
+                "args": [
+                  {
+                    "ast_class": "Constant",
+                    "col_offset": 47,
+                    "end_col_offset": 54,
+                    "end_lineno": 2,
+                    "lineno": 2,
+                    "value": "Taxes"
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 56,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 62,
+                    "end_lineno": 2,
+                    "id": "period",
+                    "lineno": 2
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 39,
+                "end_col_offset": 63,
+                "end_lineno": 2,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 39,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 46,
+                  "end_lineno": 2,
+                  "id": "taxunit",
+                  "lineno": 2
+                },
+                "keywords": [],
+                "lineno": 2
+              }
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 63,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+      "source_code": "def formula(taxunit, period, parameters):\n    return taxunit(\"earned\", period) - taxunit(\"Taxes\", period)\n",
+      "start_line_number": 180,
+      "stop_line_number": 182
+    }
+  },
+  "json_type": "number",
+  "name": "AfterTaxIncome",
+  "start_line_number": 175,
+  "stop_line_number": 182,
+  "value_type": "float"
+}

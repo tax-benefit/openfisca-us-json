@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "eternity",
+  "dtype": "int32",
+  "entity": "person",
+  "file_path": "/openfisca_us/variables/entity/person.py",
+  "json_type": "integer",
+  "label": "Unique reference for this person",
+  "name": "person_id",
+  "start_line_number": 5,
+  "stop_line_number": 10,
+  "value_type": "int"
+}

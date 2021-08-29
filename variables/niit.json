@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Net Investment Income Tax from Form 8960",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "niit",
+  "start_line_number": 184,
+  "stop_line_number": 189,
+  "value_type": "float"
+}

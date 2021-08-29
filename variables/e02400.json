@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Total social security (OASDI) benefits",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e02400",
+  "start_line_number": 302,
+  "stop_line_number": 307,
+  "value_type": "float"
+}

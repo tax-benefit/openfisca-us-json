@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Total (regular + AMT) income tax liability before credits (equals taxbc plus c09600)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c05800",
+  "start_line_number": 454,
+  "stop_line_number": 459,
+  "value_type": "float"
+}

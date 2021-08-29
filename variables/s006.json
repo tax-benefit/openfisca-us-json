@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Filing unit sampling weight; appears as WEIGHT variable in tc CLI minimal output",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "s006",
+  "start_line_number": 733,
+  "stop_line_number": 738,
+  "value_type": "float"
+}

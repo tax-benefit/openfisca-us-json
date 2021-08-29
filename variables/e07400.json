@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "General business credit from Form 3800",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e07400",
+  "start_line_number": 402,
+  "stop_line_number": 407,
+  "value_type": "float"
+}

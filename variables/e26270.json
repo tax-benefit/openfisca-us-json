@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch E: Combined partnership and S-corporation net income/loss (includes k1bx14p and k1bx14s amounts and is included in e02000)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e26270",
+  "start_line_number": 514,
+  "stop_line_number": 519,
+  "value_type": "float"
+}

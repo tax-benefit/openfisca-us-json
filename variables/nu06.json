@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Number of dependents under 6 years old",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "nu06",
+  "start_line_number": 657,
+  "stop_line_number": 662,
+  "value_type": "int"
+}

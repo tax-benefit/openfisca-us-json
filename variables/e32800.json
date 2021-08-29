@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Child/dependent-care expenses for qualifying persons from Form 2441",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e32800",
+  "start_line_number": 530,
+  "stop_line_number": 535,
+  "value_type": "float"
+}

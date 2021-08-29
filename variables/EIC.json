@@ -1,0 +1,220 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Number of EIC qualifying children (range: 0 to 3)",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "tax_unit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 20,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 22,
+              "end_col_offset": 28,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 30,
+              "end_col_offset": 40,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 5,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 41,
+                  "end_lineno": 4,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 25,
+                        "end_col_offset": 43,
+                        "end_lineno": 3,
+                        "lineno": 3,
+                        "value": "is_tax_unit_head"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 45,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 51,
+                        "end_lineno": 3,
+                        "id": "period",
+                        "lineno": 3
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 52,
+                    "end_lineno": 3,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "members",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 24,
+                      "end_lineno": 3,
+                      "lineno": 3,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 8,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 16,
+                        "end_lineno": 3,
+                        "id": "tax_unit",
+                        "lineno": 3
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 3
+                  },
+                  "lineno": 3,
+                  "op": {
+                    "ast_class": "Mult"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 27,
+                        "end_col_offset": 32,
+                        "end_lineno": 4,
+                        "lineno": 4,
+                        "value": "age"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 34,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 40,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 41,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Attribute",
+                      "attr": "members",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 4,
+                      "lineno": 4,
+                      "value": {
+                        "ast_class": "Name",
+                        "col_offset": 10,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 18,
+                        "end_lineno": 4,
+                        "id": "tax_unit",
+                        "lineno": 4
+                      }
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 5,
+              "func": {
+                "ast_class": "Attribute",
+                "attr": "max",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 23,
+                "end_lineno": 2,
+                "lineno": 2,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 11,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 19,
+                  "end_lineno": 2,
+                  "id": "tax_unit",
+                  "lineno": 2
+                }
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 5,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+      "source_code": "def formula(tax_unit, period, parameters):\n    return tax_unit.max(\n        tax_unit.members(\"is_tax_unit_head\", period)\n        * tax_unit.members(\"age\", period)\n    )\n",
+      "start_line_number": 22,
+      "stop_line_number": 27,
+      "variables": [
+        "age",
+        "is_tax_unit_head"
+      ]
+    }
+  },
+  "json_type": "integer",
+  "name": "EIC",
+  "start_line_number": 16,
+  "stop_line_number": 27,
+  "value_type": "int"
+}

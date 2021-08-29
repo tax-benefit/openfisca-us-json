@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Number of people 21 years old or older in the filing unit",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "n21",
+  "start_line_number": 689,
+  "stop_line_number": 696,
+  "value_type": "int"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "person",
+  "file_path": "/openfisca_us/variables/entity/person.py",
+  "json_type": "number",
+  "label": "Person weight",
+  "name": "person_weight",
+  "start_line_number": 12,
+  "stop_line_number": 17,
+  "value_type": "float"
+}

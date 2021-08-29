@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "2 when MARS is 2 (married filing jointly); otherwise 1",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "integer",
+  "name": "num",
+  "start_line_number": 296,
+  "stop_line_number": 303,
+  "value_type": "int"
+}

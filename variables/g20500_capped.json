@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch A: Gross casualty or theft loss deductible, capped as a decimal fraction of AGI",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "g20500_capped",
+  "start_line_number": 666,
+  "stop_line_number": 671,
+  "value_type": "float"
+}

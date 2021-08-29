@@ -1,0 +1,14 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "documentation": "True if Form 6251 (AMT) attached to return; otherwise false",
+  "dtype": "bool_",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "name": "f6251",
+  "start_line_number": 576,
+  "stop_line_number": 583,
+  "value_type": "bool"
+}

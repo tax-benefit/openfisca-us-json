@@ -1,0 +1,18 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "documentation": "True if separately filing spouse itemizes; otherwise false",
+  "dtype": "bool_",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "name": "MIDR",
+  "referring_variables": [
+    "basic_standard_deduction",
+    "standard_deduction"
+  ],
+  "start_line_number": 51,
+  "stop_line_number": 58,
+  "value_type": "bool"
+}

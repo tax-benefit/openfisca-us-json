@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Itemizable medical and dental expenses.  WARNING: this variable is zero below the floor in PUF data.",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e17500",
+  "start_line_number": 444,
+  "stop_line_number": 449,
+  "value_type": "float"
+}

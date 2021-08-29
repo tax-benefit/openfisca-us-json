@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Universal Basic Income benefit for filing unit",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "ubi",
+  "start_line_number": 924,
+  "stop_line_number": 929,
+  "value_type": "float"
+}

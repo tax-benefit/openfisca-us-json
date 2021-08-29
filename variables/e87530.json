@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Adjusted qualified lifetime learning expenses for all students",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e87530",
+  "start_line_number": 553,
+  "stop_line_number": 560,
+  "value_type": "float"
+}

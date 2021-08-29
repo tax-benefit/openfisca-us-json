@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Personal exemptions after phase-out",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c04600",
+  "start_line_number": 417,
+  "stop_line_number": 422,
+  "value_type": "float"
+}

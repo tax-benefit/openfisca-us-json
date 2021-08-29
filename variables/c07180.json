@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Nonrefundable credit for child and dependent care expenses from Form 2441",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c07180",
+  "start_line_number": 468,
+  "stop_line_number": 473,
+  "value_type": "float"
+}

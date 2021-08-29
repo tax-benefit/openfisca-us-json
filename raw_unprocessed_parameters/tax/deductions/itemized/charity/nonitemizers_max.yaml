@@ -1,0 +1,10 @@
+description: Maximum amount for charitable deductions for non-itemizers
+metadata:
+  unit: currency-USD
+values:
+  2013-01-01:
+    value: 0
+  2020-01-01:
+    value: 300
+  2021-01-01:
+    value: 0

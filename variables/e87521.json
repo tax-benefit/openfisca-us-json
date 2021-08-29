@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Total tentative AmOppCredit amount for all students",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e87521",
+  "start_line_number": 726,
+  "stop_line_number": 731,
+  "value_type": "float"
+}

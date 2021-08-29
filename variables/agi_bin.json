@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Historical AGI category used in data extrapolation",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "agi_bin",
+  "start_line_number": 102,
+  "stop_line_number": 107,
+  "value_type": "int"
+}

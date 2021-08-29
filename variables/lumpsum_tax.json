@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Lumpsum (or head) tax; appears as LSTAX variable in tc CLI minimal output",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "lumpsum_tax",
+  "start_line_number": 853,
+  "stop_line_number": 858,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sum of iitax and payrolltax and lumpsum_tax",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "combined",
+  "start_line_number": 191,
+  "stop_line_number": 196,
+  "value_type": "float"
+}

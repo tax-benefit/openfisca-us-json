@@ -1,0 +1,33 @@
+description: Standard deduction amount for different tax units
+metadata:
+  unit: currency-USD
+HOUSEHOLD_HEAD:
+  values:
+    2018-01-01:
+      value: 18000
+    2019-01-01:
+      value: 18350
+JOINT:
+  values:
+    2018-01-01:
+      value: 24000
+    2019-01-01:
+      value: 24400
+SEPARATE:
+  values:
+    2018-01-01:
+      value: 12000
+    2019-01-01:
+      value: 12200
+SINGLE:
+  values:
+    2018-01-01:
+      value: 12000
+    2019-01-01:
+      value: 12200
+WIDOW:
+  values:
+    2018-01-01:
+      value: 24000
+    2019-01-01:
+      value: 24400

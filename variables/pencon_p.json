@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Contributions to defined-contribution pension plans for taxpayer",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "pencon_p",
+  "start_line_number": 151,
+  "stop_line_number": 158,
+  "value_type": "float"
+}

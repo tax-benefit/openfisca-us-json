@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "number of child/dependent-care qualifying persons",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "f2441",
+  "start_line_number": 569,
+  "stop_line_number": 574,
+  "value_type": "int"
+}

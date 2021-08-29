@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Imputed WIC benefits",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "wic_ben",
+  "start_line_number": 775,
+  "stop_line_number": 780,
+  "value_type": "float"
+}

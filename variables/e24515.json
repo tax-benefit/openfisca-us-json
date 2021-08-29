@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch D: Un-Recaptured Section 1250 Gain",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e24515",
+  "start_line_number": 500,
+  "stop_line_number": 505,
+  "value_type": "float"
+}

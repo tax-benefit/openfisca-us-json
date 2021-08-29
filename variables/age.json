@@ -1,0 +1,19 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "int32",
+  "entity": "person",
+  "file_path": "/openfisca_us/variables/entity/person.py",
+  "json_type": "integer",
+  "label": "Age",
+  "name": "age",
+  "referring_variables": [
+    "EIC",
+    "MARS",
+    "age_head",
+    "age_spouse"
+  ],
+  "start_line_number": 41,
+  "stop_line_number": 46,
+  "value_type": "int"
+}

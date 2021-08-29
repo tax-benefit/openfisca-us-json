@@ -1,0 +1,138 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "tax_unit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 20,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 22,
+              "end_col_offset": 28,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 30,
+              "end_col_offset": 40,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 66,
+            "end_lineno": 2,
+            "lineno": 2,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 15,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 2,
+                  "id": "tax_unit",
+                  "lineno": 2
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 25,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 31,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 33,
+                  "end_col_offset": 42,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "e00900s"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 44,
+                  "end_col_offset": 54,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "e02100ps"
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 56,
+                  "end_col_offset": 65,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "k1bx14s"
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 66,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 2,
+                "id": "add",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 66,
+        "end_lineno": 2,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+      "source_code": "def formula(tax_unit, period, parameters):\n    return add(tax_unit, period, \"e00900s\", \"e02100ps\", \"k1bx14s\")\n",
+      "start_line_number": 99,
+      "stop_line_number": 101
+    }
+  },
+  "json_type": "number",
+  "name": "sey_s",
+  "start_line_number": 94,
+  "stop_line_number": 101,
+  "value_type": "float"
+}

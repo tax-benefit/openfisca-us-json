@@ -1,0 +1,13 @@
+{
+  "TaxInc": {
+    "label": "TaxInc"
+  },
+  "income": {
+    "children": [
+      {
+        "name": "TaxInc"
+      }
+    ],
+    "label": "income"
+  }
+}

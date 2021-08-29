@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Capital gain distributions not reported on Sch D",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e01100",
+  "start_line_number": 232,
+  "stop_line_number": 237,
+  "value_type": "float"
+}

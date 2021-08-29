@@ -1,0 +1,791 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "tax_unit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 20,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 22,
+              "end_col_offset": 28,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 30,
+              "end_col_offset": 40,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 62,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 3,
+                "id": "basic_stded",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 27,
+                  "end_col_offset": 53,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "basic_standard_deduction"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 55,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 61,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 18,
+              "end_col_offset": 62,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 18,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 3,
+                "id": "tax_unit",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 64,
+            "end_lineno": 4,
+            "lineno": 4,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 11,
+                "end_lineno": 4,
+                "id": "charity",
+                "lineno": 4
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "charity",
+              "col_offset": 14,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 64,
+              "end_lineno": 4,
+              "lineno": 4,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "itemized",
+                "col_offset": 14,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 56,
+                "end_lineno": 4,
+                "lineno": 4,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "deductions",
+                  "col_offset": 14,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 47,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "ast_class": "Attribute",
+                    "attr": "tax",
+                    "col_offset": 14,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 4,
+                    "lineno": 4,
+                    "value": {
+                      "args": [
+                        {
+                          "ast_class": "Name",
+                          "col_offset": 25,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 31,
+                          "end_lineno": 4,
+                          "id": "period",
+                          "lineno": 4
+                        }
+                      ],
+                      "ast_class": "Call",
+                      "col_offset": 14,
+                      "end_col_offset": 32,
+                      "end_lineno": 4,
+                      "func": {
+                        "ast_class": "Name",
+                        "col_offset": 14,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 24,
+                        "end_lineno": 4,
+                        "id": "parameters",
+                        "lineno": 4
+                      },
+                      "keywords": [],
+                      "lineno": 4
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 35,
+            "end_lineno": 5,
+            "lineno": 5,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 5,
+                "id": "MARS",
+                "lineno": 5
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 20,
+                  "end_col_offset": 26,
+                  "end_lineno": 5,
+                  "lineno": 5,
+                  "value": "MARS"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 5,
+                  "id": "period",
+                  "lineno": 5
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 35,
+              "end_lineno": 5,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 5,
+                "id": "tax_unit",
+                "lineno": 5
+              },
+              "keywords": [],
+              "lineno": 5
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 35,
+            "end_lineno": 6,
+            "lineno": 6,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 6,
+                "id": "MIDR",
+                "lineno": 6
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 20,
+                  "end_col_offset": 26,
+                  "end_lineno": 6,
+                  "lineno": 6,
+                  "value": "MIDR"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 6,
+                  "id": "period",
+                  "lineno": 6
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 35,
+              "end_lineno": 6,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 6,
+                "id": "tax_unit",
+                "lineno": 6
+              },
+              "keywords": [],
+              "lineno": 6
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 35,
+            "end_lineno": 7,
+            "lineno": 7,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 7,
+                "id": "MARSType",
+                "lineno": 7
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "possible_values",
+              "col_offset": 15,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 35,
+              "end_lineno": 7,
+              "lineno": 7,
+              "value": {
+                "ast_class": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 7,
+                "id": "MARS",
+                "lineno": 7
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 73,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 10,
+                "id": "extra_stded",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 27,
+                  "end_col_offset": 64,
+                  "end_lineno": 10,
+                  "lineno": 10,
+                  "value": "aged_blind_extra_standard_deduction"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 66,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 72,
+                  "end_lineno": 10,
+                  "id": "period",
+                  "lineno": 10
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 18,
+              "end_col_offset": 73,
+              "end_lineno": 10,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 18,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 10,
+                "id": "tax_unit",
+                "lineno": 10
+              },
+              "keywords": [],
+              "lineno": 10
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 40,
+            "end_lineno": 13,
+            "lineno": 13,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 13,
+                "id": "standard",
+                "lineno": 13
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 15,
+              "end_col_offset": 40,
+              "end_lineno": 13,
+              "left": {
+                "ast_class": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 26,
+                "end_lineno": 13,
+                "id": "basic_stded",
+                "lineno": 13
+              },
+              "lineno": 13,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "Name",
+                "col_offset": 29,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 40,
+                "end_lineno": 13,
+                "id": "extra_stded",
+                "lineno": 13
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 69,
+            "end_lineno": 14,
+            "lineno": 14,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 14,
+                "id": "standard",
+                "lineno": 14
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 21,
+                  "end_col_offset": 55,
+                  "end_lineno": 14,
+                  "left": {
+                    "ast_class": "Compare",
+                    "col_offset": 22,
+                    "comparators": [
+                      {
+                        "ast_class": "Attribute",
+                        "attr": "SEPARATE",
+                        "col_offset": 30,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 47,
+                        "end_lineno": 14,
+                        "lineno": 14,
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 30,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 38,
+                          "end_lineno": 14,
+                          "id": "MARSType",
+                          "lineno": 14
+                        }
+                      }
+                    ],
+                    "end_col_offset": 47,
+                    "end_lineno": 14,
+                    "left": {
+                      "ast_class": "Name",
+                      "col_offset": 22,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 26,
+                      "end_lineno": 14,
+                      "id": "MARS",
+                      "lineno": 14
+                    },
+                    "lineno": 14,
+                    "ops": [
+                      {
+                        "ast_class": "Eq"
+                      }
+                    ]
+                  },
+                  "lineno": 14,
+                  "op": {
+                    "ast_class": "BitAnd"
+                  },
+                  "right": {
+                    "ast_class": "Name",
+                    "col_offset": 51,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 55,
+                    "end_lineno": 14,
+                    "id": "MIDR",
+                    "lineno": 14
+                  }
+                },
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 57,
+                  "end_col_offset": 58,
+                  "end_lineno": 14,
+                  "lineno": 14,
+                  "value": 0
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 60,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 68,
+                  "end_lineno": 14,
+                  "id": "standard",
+                  "lineno": 14
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 15,
+              "end_col_offset": 69,
+              "end_lineno": 14,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 14,
+                "id": "where",
+                "lineno": 14
+              },
+              "keywords": [],
+              "lineno": 14
+            }
+          },
+          {
+            "ast_class": "AugAssign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 17,
+            "lineno": 15,
+            "op": {
+              "ast_class": "Add"
+            },
+            "target": {
+              "ast_class": "Name",
+              "col_offset": 4,
+              "ctx": {
+                "ast_class": "Store"
+              },
+              "end_col_offset": 12,
+              "end_lineno": 15,
+              "id": "standard",
+              "lineno": 15
+            },
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 16,
+              "end_col_offset": 5,
+              "end_lineno": 17,
+              "left": {
+                "ast_class": "Attribute",
+                "attr": "allow_nonitemizers",
+                "col_offset": 16,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 42,
+                "end_lineno": 15,
+                "lineno": 15,
+                "value": {
+                  "ast_class": "Name",
+                  "col_offset": 16,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 23,
+                  "end_lineno": 15,
+                  "id": "charity",
+                  "lineno": 15
+                }
+              },
+              "lineno": 15,
+              "op": {
+                "ast_class": "Mult"
+              },
+              "right": {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 17,
+                        "end_col_offset": 25,
+                        "end_lineno": 16,
+                        "lineno": 16,
+                        "value": "c19700"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 27,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 33,
+                        "end_lineno": 16,
+                        "id": "period",
+                        "lineno": 16
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 34,
+                    "end_lineno": 16,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 16,
+                      "end_lineno": 16,
+                      "id": "tax_unit",
+                      "lineno": 16
+                    },
+                    "keywords": [],
+                    "lineno": 16
+                  },
+                  {
+                    "ast_class": "Attribute",
+                    "attr": "nonitemizers_max",
+                    "col_offset": 36,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 60,
+                    "end_lineno": 16,
+                    "lineno": 16,
+                    "value": {
+                      "ast_class": "Name",
+                      "col_offset": 36,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 43,
+                      "end_lineno": 16,
+                      "id": "charity",
+                      "lineno": 16
+                    }
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 45,
+                "end_col_offset": 5,
+                "end_lineno": 17,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 45,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 49,
+                  "end_lineno": 15,
+                  "id": "min_",
+                  "lineno": 15
+                },
+                "keywords": [],
+                "lineno": 15
+              }
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 19,
+            "end_lineno": 19,
+            "lineno": 19,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 19,
+              "end_lineno": 19,
+              "id": "standard",
+              "lineno": 19
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 19,
+        "end_lineno": 19,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+      "parameters": [
+        "tax.deductions.itemized.charity.allow_nonitemizers",
+        "tax.deductions.itemized.charity.nonitemizers_max"
+      ],
+      "source_code": "def formula(tax_unit, period, parameters):\n    # Calculate basic standard deduction\n    basic_stded = tax_unit(\"basic_standard_deduction\", period)\n    charity = parameters(period).tax.deductions.itemized.charity\n    MARS = tax_unit(\"MARS\", period)\n    MIDR = tax_unit(\"MIDR\", period)\n    MARSType = MARS.possible_values\n\n    # Calculate extra standard deduction for aged and blind\n    extra_stded = tax_unit(\"aged_blind_extra_standard_deduction\", period)\n\n    # Calculate the total standard deduction\n    standard = basic_stded + extra_stded\n    standard = where((MARS == MARSType.SEPARATE) & MIDR, 0, standard)\n    standard += charity.allow_nonitemizers * min_(\n        tax_unit(\"c19700\", period), charity.nonitemizers_max\n    )\n\n    return standard\n",
+      "start_line_number": 64,
+      "stop_line_number": 83,
+      "variables": [
+        "MARS",
+        "MIDR",
+        "aged_blind_extra_standard_deduction",
+        "basic_standard_deduction",
+        "c19700"
+      ]
+    }
+  },
+  "json_type": "number",
+  "label": "Standard deduction",
+  "name": "standard_deduction",
+  "referring_variables": [
+    "TaxInc"
+  ],
+  "start_line_number": 58,
+  "stop_line_number": 83,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "spm_unit",
+  "file_path": "/openfisca_us/variables/entity/spm_unit.py",
+  "json_type": "number",
+  "label": "SPM unit weight",
+  "name": "spm_unit_weight",
+  "start_line_number": 12,
+  "stop_line_number": 17,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch D: 28% Rate Gain or Loss",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e24518",
+  "start_line_number": 507,
+  "stop_line_number": 512,
+  "value_type": "float"
+}

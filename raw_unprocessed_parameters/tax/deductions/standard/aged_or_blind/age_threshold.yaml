@@ -1,0 +1,6 @@
+description: Age at which a person qualifies for the aged standard deduction addition
+metadata:
+  unit: year
+values:
+  0001-01-01:
+    value: 65

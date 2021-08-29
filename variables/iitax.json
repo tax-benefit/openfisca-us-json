@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Total federal individual income tax liability; appears as INCTAX variable in tc CLI minimal output",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "iitax",
+  "start_line_number": 289,
+  "stop_line_number": 294,
+  "value_type": "float"
+}

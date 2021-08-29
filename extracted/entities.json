@@ -1,0 +1,65 @@
+{
+  "family": {
+    "documentation": "A family.",
+    "key": "family",
+    "key_plural": "families",
+    "label": "Family",
+    "roles": [
+      {
+        "documentation": "A member of the family",
+        "key": "member",
+        "key_plural": "members",
+        "label": "Member"
+      }
+    ]
+  },
+  "household": {
+    "documentation": "A household.",
+    "key": "household",
+    "key_plural": "households",
+    "label": "Household",
+    "roles": [
+      {
+        "documentation": "A member of the household",
+        "key": "member",
+        "key_plural": "members",
+        "label": "Member"
+      }
+    ]
+  },
+  "person": {
+    "documentation": "A person.",
+    "is_person": true,
+    "key": "person",
+    "key_plural": "people",
+    "label": "Person"
+  },
+  "spm_unit": {
+    "documentation": "An SPM unit.",
+    "key": "spm_unit",
+    "key_plural": "spm_units",
+    "label": "SPM unit",
+    "roles": [
+      {
+        "documentation": "A member of the SPM unit",
+        "key": "member",
+        "key_plural": "members",
+        "label": "Member"
+      }
+    ]
+  },
+  "tax_unit": {
+    "documentation": "A tax unit.",
+    "key": "tax_unit",
+    "key_plural": "tax_units",
+    "label": "Tax unit",
+    "roles": [
+      {
+        "documentation": "A member of the tax unit",
+        "key": "member",
+        "key_plural": "members",
+        "label": "Member"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Number of dependents under 13 years old",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "nu13",
+  "start_line_number": 664,
+  "stop_line_number": 669,
+  "value_type": "int"
+}

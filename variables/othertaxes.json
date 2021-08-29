@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Other taxes: sum of niit, e09700, e09800 and e09900 (included in c09200)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "othertaxes",
+  "start_line_number": 305,
+  "stop_line_number": 310,
+  "value_type": "float"
+}

@@ -1,0 +1,1096 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "tax_unit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 20,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 22,
+              "end_col_offset": 28,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 30,
+              "end_col_offset": 40,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 39,
+            "end_lineno": 2,
+            "lineno": 2,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 10,
+                "end_lineno": 2,
+                "id": "income",
+                "lineno": 2
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 22,
+                  "end_col_offset": 30,
+                  "end_lineno": 2,
+                  "lineno": 2,
+                  "value": "income"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 32,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 38,
+                  "end_lineno": 2,
+                  "id": "period",
+                  "lineno": 2
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 13,
+              "end_col_offset": 39,
+              "end_lineno": 2,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 2,
+                "id": "tax_unit",
+                "lineno": 2
+              },
+              "keywords": [],
+              "lineno": 2
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 35,
+            "end_lineno": 3,
+            "lineno": 3,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 8,
+                "end_lineno": 3,
+                "id": "MARS",
+                "lineno": 3
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 20,
+                  "end_col_offset": 26,
+                  "end_lineno": 3,
+                  "lineno": 3,
+                  "value": "MARS"
+                },
+                {
+                  "ast_class": "Name",
+                  "col_offset": 28,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 34,
+                  "end_lineno": 3,
+                  "id": "period",
+                  "lineno": 3
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 35,
+              "end_lineno": 3,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 19,
+                "end_lineno": 3,
+                "id": "tax_unit",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 52,
+            "end_lineno": 4,
+            "lineno": 4,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 12,
+                "end_lineno": 4,
+                "id": "brackets",
+                "lineno": 4
+              }
+            ],
+            "value": {
+              "ast_class": "Attribute",
+              "attr": "bracket",
+              "col_offset": 15,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 52,
+              "end_lineno": 4,
+              "lineno": 4,
+              "value": {
+                "ast_class": "Attribute",
+                "attr": "income",
+                "col_offset": 15,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 44,
+                "end_lineno": 4,
+                "lineno": 4,
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "tax",
+                  "col_offset": 15,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 37,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": {
+                    "args": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 26,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 32,
+                        "end_lineno": 4,
+                        "id": "period",
+                        "lineno": 4
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 15,
+                    "end_col_offset": 33,
+                    "end_lineno": 4,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 15,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 25,
+                      "end_lineno": 4,
+                      "id": "parameters",
+                      "lineno": 4
+                    },
+                    "keywords": [],
+                    "lineno": 4
+                  }
+                }
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 9,
+            "lineno": 5,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 5,
+                "id": "thresholds",
+                "lineno": 5
+              }
+            ],
+            "value": {
+              "ast_class": "BinOp",
+              "col_offset": 8,
+              "end_col_offset": 20,
+              "end_lineno": 8,
+              "left": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 66,
+                "end_lineno": 7,
+                "left": {
+                  "ast_class": "List",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "elts": [
+                    {
+                      "ast_class": "Constant",
+                      "col_offset": 9,
+                      "end_col_offset": 10,
+                      "end_lineno": 6,
+                      "lineno": 6,
+                      "value": 0
+                    }
+                  ],
+                  "end_col_offset": 11,
+                  "end_lineno": 6,
+                  "lineno": 6
+                },
+                "lineno": 6,
+                "op": {
+                  "ast_class": "Add"
+                },
+                "right": {
+                  "ast_class": "ListComp",
+                  "col_offset": 10,
+                  "elt": {
+                    "ast_class": "Subscript",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 44,
+                    "end_lineno": 7,
+                    "lineno": 7,
+                    "slice": {
+                      "ast_class": "Name",
+                      "col_offset": 39,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 43,
+                      "end_lineno": 7,
+                      "id": "MARS",
+                      "lineno": 7
+                    },
+                    "value": {
+                      "ast_class": "Subscript",
+                      "col_offset": 11,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 38,
+                      "end_lineno": 7,
+                      "lineno": 7,
+                      "slice": {
+                        "args": [
+                          {
+                            "ast_class": "Name",
+                            "col_offset": 35,
+                            "ctx": {
+                              "ast_class": "Load"
+                            },
+                            "end_col_offset": 36,
+                            "end_lineno": 7,
+                            "id": "i",
+                            "lineno": 7
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 31,
+                        "end_col_offset": 37,
+                        "end_lineno": 7,
+                        "func": {
+                          "ast_class": "Name",
+                          "col_offset": 31,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 34,
+                          "end_lineno": 7,
+                          "id": "str",
+                          "lineno": 7
+                        },
+                        "keywords": [],
+                        "lineno": 7
+                      },
+                      "value": {
+                        "ast_class": "Attribute",
+                        "attr": "thresholds",
+                        "col_offset": 11,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 30,
+                        "end_lineno": 7,
+                        "lineno": 7,
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 11,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 19,
+                          "end_lineno": 7,
+                          "id": "brackets",
+                          "lineno": 7
+                        }
+                      }
+                    }
+                  },
+                  "end_col_offset": 66,
+                  "end_lineno": 7,
+                  "generators": [
+                    {
+                      "ast_class": "comprehension",
+                      "ifs": [],
+                      "is_async": 0,
+                      "iter": {
+                        "args": [
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 60,
+                            "end_col_offset": 61,
+                            "end_lineno": 7,
+                            "lineno": 7,
+                            "value": 1
+                          },
+                          {
+                            "ast_class": "Constant",
+                            "col_offset": 63,
+                            "end_col_offset": 64,
+                            "end_lineno": 7,
+                            "lineno": 7,
+                            "value": 7
+                          }
+                        ],
+                        "ast_class": "Call",
+                        "col_offset": 54,
+                        "end_col_offset": 65,
+                        "end_lineno": 7,
+                        "func": {
+                          "ast_class": "Name",
+                          "col_offset": 54,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 59,
+                          "end_lineno": 7,
+                          "id": "range",
+                          "lineno": 7
+                        },
+                        "keywords": [],
+                        "lineno": 7
+                      },
+                      "target": {
+                        "ast_class": "Name",
+                        "col_offset": 49,
+                        "ctx": {
+                          "ast_class": "Store"
+                        },
+                        "end_col_offset": 50,
+                        "end_lineno": 7,
+                        "id": "i",
+                        "lineno": 7
+                      }
+                    }
+                  ],
+                  "lineno": 7
+                }
+              },
+              "lineno": 6,
+              "op": {
+                "ast_class": "Add"
+              },
+              "right": {
+                "ast_class": "List",
+                "col_offset": 10,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "elts": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 11,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 19,
+                    "end_lineno": 8,
+                    "id": "infinity",
+                    "lineno": 8
+                  }
+                ],
+                "end_col_offset": 20,
+                "end_lineno": 8,
+                "lineno": 8
+              }
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 57,
+            "end_lineno": 10,
+            "lineno": 10,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 9,
+                "end_lineno": 10,
+                "id": "rates",
+                "lineno": 10
+              }
+            ],
+            "value": {
+              "ast_class": "ListComp",
+              "col_offset": 12,
+              "elt": {
+                "ast_class": "Subscript",
+                "col_offset": 13,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 35,
+                "end_lineno": 10,
+                "lineno": 10,
+                "slice": {
+                  "args": [
+                    {
+                      "ast_class": "Name",
+                      "col_offset": 32,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 33,
+                      "end_lineno": 10,
+                      "id": "i",
+                      "lineno": 10
+                    }
+                  ],
+                  "ast_class": "Call",
+                  "col_offset": 28,
+                  "end_col_offset": 34,
+                  "end_lineno": 10,
+                  "func": {
+                    "ast_class": "Name",
+                    "col_offset": 28,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 31,
+                    "end_lineno": 10,
+                    "id": "str",
+                    "lineno": 10
+                  },
+                  "keywords": [],
+                  "lineno": 10
+                },
+                "value": {
+                  "ast_class": "Attribute",
+                  "attr": "rates",
+                  "col_offset": 13,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 27,
+                  "end_lineno": 10,
+                  "lineno": 10,
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 13,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 21,
+                    "end_lineno": 10,
+                    "id": "brackets",
+                    "lineno": 10
+                  }
+                }
+              },
+              "end_col_offset": 57,
+              "end_lineno": 10,
+              "generators": [
+                {
+                  "ast_class": "comprehension",
+                  "ifs": [],
+                  "is_async": 0,
+                  "iter": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 51,
+                        "end_col_offset": 52,
+                        "end_lineno": 10,
+                        "lineno": 10,
+                        "value": 1
+                      },
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 54,
+                        "end_col_offset": 55,
+                        "end_lineno": 10,
+                        "lineno": 10,
+                        "value": 8
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 45,
+                    "end_col_offset": 56,
+                    "end_lineno": 10,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 45,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 50,
+                      "end_lineno": 10,
+                      "id": "range",
+                      "lineno": 10
+                    },
+                    "keywords": [],
+                    "lineno": 10
+                  },
+                  "target": {
+                    "ast_class": "Name",
+                    "col_offset": 40,
+                    "ctx": {
+                      "ast_class": "Store"
+                    },
+                    "end_col_offset": 41,
+                    "end_lineno": 10,
+                    "id": "i",
+                    "lineno": 10
+                  }
+                }
+              ],
+              "lineno": 10
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 14,
+            "lineno": 11,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 21,
+                "end_lineno": 11,
+                "id": "bracketed_amounts",
+                "lineno": 11
+              }
+            ],
+            "value": {
+              "ast_class": "ListComp",
+              "col_offset": 24,
+              "elt": {
+                "args": [
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 23,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 29,
+                    "end_lineno": 12,
+                    "id": "income",
+                    "lineno": 12
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 31,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 12,
+                    "id": "lower",
+                    "lineno": 12
+                  },
+                  {
+                    "ast_class": "Name",
+                    "col_offset": 38,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 43,
+                    "end_lineno": 12,
+                    "id": "upper",
+                    "lineno": 12
+                  }
+                ],
+                "ast_class": "Call",
+                "col_offset": 8,
+                "end_col_offset": 44,
+                "end_lineno": 12,
+                "func": {
+                  "ast_class": "Name",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 22,
+                  "end_lineno": 12,
+                  "id": "amount_between",
+                  "lineno": 12
+                },
+                "keywords": [],
+                "lineno": 12
+              },
+              "end_col_offset": 5,
+              "end_lineno": 14,
+              "generators": [
+                {
+                  "ast_class": "comprehension",
+                  "ifs": [],
+                  "is_async": 0,
+                  "iter": {
+                    "args": [
+                      {
+                        "ast_class": "Subscript",
+                        "col_offset": 32,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 47,
+                        "end_lineno": 13,
+                        "lineno": 13,
+                        "slice": {
+                          "ast_class": "Slice",
+                          "col_offset": 43,
+                          "end_col_offset": 46,
+                          "end_lineno": 13,
+                          "lineno": 13,
+                          "upper": {
+                            "ast_class": "UnaryOp",
+                            "col_offset": 44,
+                            "end_col_offset": 46,
+                            "end_lineno": 13,
+                            "lineno": 13,
+                            "op": {
+                              "ast_class": "USub"
+                            },
+                            "operand": {
+                              "ast_class": "Constant",
+                              "col_offset": 45,
+                              "end_col_offset": 46,
+                              "end_lineno": 13,
+                              "lineno": 13,
+                              "value": 1
+                            }
+                          }
+                        },
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 32,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 42,
+                          "end_lineno": 13,
+                          "id": "thresholds",
+                          "lineno": 13
+                        }
+                      },
+                      {
+                        "ast_class": "Subscript",
+                        "col_offset": 49,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 63,
+                        "end_lineno": 13,
+                        "lineno": 13,
+                        "slice": {
+                          "ast_class": "Slice",
+                          "col_offset": 60,
+                          "end_col_offset": 62,
+                          "end_lineno": 13,
+                          "lineno": 13,
+                          "lower": {
+                            "ast_class": "Constant",
+                            "col_offset": 60,
+                            "end_col_offset": 61,
+                            "end_lineno": 13,
+                            "lineno": 13,
+                            "value": 1
+                          }
+                        },
+                        "value": {
+                          "ast_class": "Name",
+                          "col_offset": 49,
+                          "ctx": {
+                            "ast_class": "Load"
+                          },
+                          "end_col_offset": 59,
+                          "end_lineno": 13,
+                          "id": "thresholds",
+                          "lineno": 13
+                        }
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 28,
+                    "end_col_offset": 64,
+                    "end_lineno": 13,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 28,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 31,
+                      "end_lineno": 13,
+                      "id": "zip",
+                      "lineno": 13
+                    },
+                    "keywords": [],
+                    "lineno": 13
+                  },
+                  "target": {
+                    "ast_class": "Tuple",
+                    "col_offset": 12,
+                    "ctx": {
+                      "ast_class": "Store"
+                    },
+                    "elts": [
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 12,
+                        "ctx": {
+                          "ast_class": "Store"
+                        },
+                        "end_col_offset": 17,
+                        "end_lineno": 13,
+                        "id": "lower",
+                        "lineno": 13
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 19,
+                        "ctx": {
+                          "ast_class": "Store"
+                        },
+                        "end_col_offset": 24,
+                        "end_lineno": 13,
+                        "id": "upper",
+                        "lineno": 13
+                      }
+                    ],
+                    "end_col_offset": 24,
+                    "end_lineno": 13,
+                    "lineno": 13
+                  }
+                }
+              ],
+              "lineno": 11
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 17,
+            "lineno": 15,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 25,
+                "end_lineno": 15,
+                "id": "bracketed_tax_amounts",
+                "lineno": 15
+              }
+            ],
+            "value": {
+              "ast_class": "ListComp",
+              "col_offset": 28,
+              "elt": {
+                "ast_class": "BinOp",
+                "col_offset": 8,
+                "end_col_offset": 39,
+                "end_lineno": 16,
+                "left": {
+                  "ast_class": "Subscript",
+                  "col_offset": 8,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 16,
+                  "end_lineno": 16,
+                  "lineno": 16,
+                  "slice": {
+                    "ast_class": "Name",
+                    "col_offset": 14,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 15,
+                    "end_lineno": 16,
+                    "id": "i",
+                    "lineno": 16
+                  },
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 8,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 13,
+                    "end_lineno": 16,
+                    "id": "rates",
+                    "lineno": 16
+                  }
+                },
+                "lineno": 16,
+                "op": {
+                  "ast_class": "Mult"
+                },
+                "right": {
+                  "ast_class": "Subscript",
+                  "col_offset": 19,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 39,
+                  "end_lineno": 16,
+                  "lineno": 16,
+                  "slice": {
+                    "ast_class": "Name",
+                    "col_offset": 37,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 38,
+                    "end_lineno": 16,
+                    "id": "i",
+                    "lineno": 16
+                  },
+                  "value": {
+                    "ast_class": "Name",
+                    "col_offset": 19,
+                    "ctx": {
+                      "ast_class": "Load"
+                    },
+                    "end_col_offset": 36,
+                    "end_lineno": 16,
+                    "id": "bracketed_amounts",
+                    "lineno": 16
+                  }
+                }
+              },
+              "end_col_offset": 5,
+              "end_lineno": 17,
+              "generators": [
+                {
+                  "ast_class": "comprehension",
+                  "ifs": [],
+                  "is_async": 0,
+                  "iter": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 55,
+                        "end_col_offset": 56,
+                        "end_lineno": 16,
+                        "lineno": 16,
+                        "value": 7
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 49,
+                    "end_col_offset": 57,
+                    "end_lineno": 16,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 49,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 54,
+                      "end_lineno": 16,
+                      "id": "range",
+                      "lineno": 16
+                    },
+                    "keywords": [],
+                    "lineno": 16
+                  },
+                  "target": {
+                    "ast_class": "Name",
+                    "col_offset": 44,
+                    "ctx": {
+                      "ast_class": "Store"
+                    },
+                    "end_col_offset": 45,
+                    "end_lineno": 16,
+                    "id": "i",
+                    "lineno": 16
+                  }
+                }
+              ],
+              "lineno": 15
+            }
+          },
+          {
+            "ast_class": "Assign",
+            "col_offset": 4,
+            "end_col_offset": 43,
+            "end_lineno": 18,
+            "lineno": 18,
+            "targets": [
+              {
+                "ast_class": "Name",
+                "col_offset": 4,
+                "ctx": {
+                  "ast_class": "Store"
+                },
+                "end_col_offset": 14,
+                "end_lineno": 18,
+                "id": "tax_amount",
+                "lineno": 18
+              }
+            ],
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Name",
+                  "col_offset": 21,
+                  "ctx": {
+                    "ast_class": "Load"
+                  },
+                  "end_col_offset": 42,
+                  "end_lineno": 18,
+                  "id": "bracketed_tax_amounts",
+                  "lineno": 18
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 17,
+              "end_col_offset": 43,
+              "end_lineno": 18,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 17,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 20,
+                "end_lineno": 18,
+                "id": "sum",
+                "lineno": 18
+              },
+              "keywords": [],
+              "lineno": 18
+            }
+          },
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 21,
+            "end_lineno": 19,
+            "lineno": 19,
+            "value": {
+              "ast_class": "Name",
+              "col_offset": 11,
+              "ctx": {
+                "ast_class": "Load"
+              },
+              "end_col_offset": 21,
+              "end_lineno": 19,
+              "id": "tax_amount",
+              "lineno": 19
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 21,
+        "end_lineno": 19,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+      "parameters": [
+        "tax.income.bracket.rates",
+        "tax.income.bracket.thresholds"
+      ],
+      "source_code": "def formula(tax_unit, period, parameters):\n    income = tax_unit(\"income\", period)\n    MARS = tax_unit(\"MARS\", period)\n    brackets = parameters(period).tax.income.bracket\n    thresholds = (\n        [0]\n        + [brackets.thresholds[str(i)][MARS] for i in range(1, 7)]\n        + [infinity]\n    )\n    rates = [brackets.rates[str(i)] for i in range(1, 8)]\n    bracketed_amounts = [\n        amount_between(income, lower, upper)\n        for lower, upper in zip(thresholds[:-1], thresholds[1:])\n    ]\n    bracketed_tax_amounts = [\n        rates[i] * bracketed_amounts[i] for i in range(7)\n    ]\n    tax_amount = sum(bracketed_tax_amounts)\n    return tax_amount\n",
+      "start_line_number": 154,
+      "stop_line_number": 173,
+      "variables": [
+        "MARS",
+        "income"
+      ]
+    }
+  },
+  "json_type": "number",
+  "name": "Taxes",
+  "start_line_number": 149,
+  "stop_line_number": 173,
+  "value_type": "float"
+}

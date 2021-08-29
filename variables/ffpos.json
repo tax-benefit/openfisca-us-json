@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "CPS family identifier within household (not used in tax-calculation logic)",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "ffpos",
+  "start_line_number": 592,
+  "stop_line_number": 597,
+  "value_type": "int"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "eternity",
+  "dtype": "int32",
+  "entity": "person",
+  "file_path": "/openfisca_us/variables/entity/tax_unit.py",
+  "json_type": "integer",
+  "label": "Unique reference for the tax unit of this person",
+  "name": "person_tax_unit_id",
+  "start_line_number": 19,
+  "stop_line_number": 24,
+  "value_type": "int"
+}

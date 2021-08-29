@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Recovery Rebate Credit, from American Rescue Plan Act of 2021",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "recovery_rebate_credit",
+  "start_line_number": 767,
+  "stop_line_number": 774,
+  "value_type": "float"
+}

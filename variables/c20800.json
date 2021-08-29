@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch A: Net limited miscellaneous deductions deducted (component of pre-limitation c21060 total)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c20800",
+  "start_line_number": 673,
+  "stop_line_number": 678,
+  "value_type": "float"
+}

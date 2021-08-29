@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "number of dependents age 65+ in filing unit excluding taxpayer and spouse",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "elderly_dependents",
+  "start_line_number": 562,
+  "stop_line_number": 567,
+  "value_type": "int"
+}

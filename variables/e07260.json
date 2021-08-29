@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Residential energy credit from Form 5695",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e07260",
+  "start_line_number": 388,
+  "stop_line_number": 393,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Refundable credit for child and dependent care expenses from Form 2441",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "CDCC_refund",
+  "start_line_number": 475,
+  "stop_line_number": 480,
+  "value_type": "float"
+}

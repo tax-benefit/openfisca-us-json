@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Penalty tax on qualified retirement plans",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e09900",
+  "start_line_number": 430,
+  "stop_line_number": 435,
+  "value_type": "float"
+}

@@ -1,0 +1,59 @@
+description: Capital gains tax rates and brackets for tax units
+metadata:
+  unit: /1
+rates:
+  1:
+    values:
+      2013-01-01:
+        value: 0
+  2:
+    values:
+      2013-01-01:
+        value: 0.15
+  3:
+    values:
+      2013-01-01:
+        value: 0.2
+thresholds:
+  1:
+    HOUSEHOLD_HEAD:
+      values:
+        2019-01-01:
+          value: 52750
+    JOINT:
+      values:
+        2019-01-01:
+          value: 78750
+    SEPARATE:
+      values:
+        2019-01-01:
+          value: 39375
+    SINGLE:
+      values:
+        2019-01-01:
+          value: 39375
+    WIDOW:
+      values:
+        2019-01-01:
+          value: 78750
+  2:
+    HOUSEHOLD_HEAD:
+      values:
+        2019-01-01:
+          value: 461700
+    JOINT:
+      values:
+        2019-01-01:
+          value: 488850
+    SEPARATE:
+      values:
+        2019-01-01:
+          value: 244425
+    SINGLE:
+      values:
+        2019-01-01:
+          value: 434550
+    WIDOW:
+      values:
+        2019-01-01:
+          value: 488850

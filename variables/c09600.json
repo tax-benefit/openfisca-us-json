@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Alternative Minimum Tax (AMT) liability",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c09600",
+  "start_line_number": 564,
+  "stop_line_number": 569,
+  "value_type": "float"
+}

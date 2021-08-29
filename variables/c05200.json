@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Tax amount from Sch X,Y,X tables",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c05200",
+  "start_line_number": 438,
+  "stop_line_number": 443,
+  "value_type": "float"
+}

@@ -1,0 +1,33 @@
+description: Additional standard deduction for blind and aged
+metadata:
+  unit: currency-USD
+HOUSEHOLD_HEAD:
+  values:
+    2018-01-01:
+      value: 1600
+    2019-01-01:
+      value: 1650
+JOINT:
+  values:
+    2018-01-01:
+      value: 1300
+    2019-01-01:
+      value: 1300
+SEPARATE:
+  values:
+    2018-01-01:
+      value: 1300
+    2019-01-01:
+      value: 1300
+SINGLE:
+  values:
+    2018-01-01:
+      value: 1600
+    2019-01-01:
+      value: 1650
+WIDOW:
+  values:
+    2018-01-01:
+      value: 1300
+    2019-01-01:
+      value: 1300

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Prior year minimum tax credit from Form 8801",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e07600",
+  "start_line_number": 409,
+  "stop_line_number": 414,
+  "value_type": "float"
+}

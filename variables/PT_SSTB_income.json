@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Value of one implies business income is from a specified service trade or business (SSTB); value of zero implies business income is from a qualified trade or business",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "PT_SSTB_income",
+  "start_line_number": 782,
+  "stop_line_number": 787,
+  "value_type": "int"
+}

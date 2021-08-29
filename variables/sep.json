@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "2 when MARS is 3 (married filing separately); otherwise 1",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "integer",
+  "name": "sep",
+  "start_line_number": 326,
+  "stop_line_number": 333,
+  "value_type": "int"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch E total rental, royalty, partnership, S-corporation, etc, income/loss (includes e26270 and e27200)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e02000",
+  "start_line_number": 267,
+  "stop_line_number": 272,
+  "value_type": "float"
+}

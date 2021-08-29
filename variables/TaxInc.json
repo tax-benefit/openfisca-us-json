@@ -1,0 +1,198 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "formulas": {
+    "0001-01-01": {
+      "ast": {
+        "args": {
+          "args": [
+            {
+              "arg": "tax_unit",
+              "ast_class": "arg",
+              "col_offset": 12,
+              "end_col_offset": 20,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "period",
+              "ast_class": "arg",
+              "col_offset": 22,
+              "end_col_offset": 28,
+              "end_lineno": 1,
+              "lineno": 1
+            },
+            {
+              "arg": "parameters",
+              "ast_class": "arg",
+              "col_offset": 30,
+              "end_col_offset": 40,
+              "end_lineno": 1,
+              "lineno": 1
+            }
+          ],
+          "ast_class": "arguments",
+          "defaults": [],
+          "kw_defaults": [],
+          "kwonlyargs": [],
+          "posonlyargs": []
+        },
+        "ast_class": "FunctionDef",
+        "body": [
+          {
+            "ast_class": "Return",
+            "col_offset": 4,
+            "end_col_offset": 5,
+            "end_lineno": 7,
+            "lineno": 3,
+            "value": {
+              "args": [
+                {
+                  "ast_class": "Constant",
+                  "col_offset": 8,
+                  "end_col_offset": 9,
+                  "end_lineno": 4,
+                  "lineno": 4,
+                  "value": 0
+                },
+                {
+                  "ast_class": "BinOp",
+                  "col_offset": 8,
+                  "end_col_offset": 48,
+                  "end_lineno": 6,
+                  "left": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 17,
+                        "end_col_offset": 25,
+                        "end_lineno": 5,
+                        "lineno": 5,
+                        "value": "earned"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 27,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 33,
+                        "end_lineno": 5,
+                        "id": "period",
+                        "lineno": 5
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 8,
+                    "end_col_offset": 34,
+                    "end_lineno": 5,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 8,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 16,
+                      "end_lineno": 5,
+                      "id": "tax_unit",
+                      "lineno": 5
+                    },
+                    "keywords": [],
+                    "lineno": 5
+                  },
+                  "lineno": 5,
+                  "op": {
+                    "ast_class": "Sub"
+                  },
+                  "right": {
+                    "args": [
+                      {
+                        "ast_class": "Constant",
+                        "col_offset": 19,
+                        "end_col_offset": 39,
+                        "end_lineno": 6,
+                        "lineno": 6,
+                        "value": "standard_deduction"
+                      },
+                      {
+                        "ast_class": "Name",
+                        "col_offset": 41,
+                        "ctx": {
+                          "ast_class": "Load"
+                        },
+                        "end_col_offset": 47,
+                        "end_lineno": 6,
+                        "id": "period",
+                        "lineno": 6
+                      }
+                    ],
+                    "ast_class": "Call",
+                    "col_offset": 10,
+                    "end_col_offset": 48,
+                    "end_lineno": 6,
+                    "func": {
+                      "ast_class": "Name",
+                      "col_offset": 10,
+                      "ctx": {
+                        "ast_class": "Load"
+                      },
+                      "end_col_offset": 18,
+                      "end_lineno": 6,
+                      "id": "tax_unit",
+                      "lineno": 6
+                    },
+                    "keywords": [],
+                    "lineno": 6
+                  }
+                }
+              ],
+              "ast_class": "Call",
+              "col_offset": 11,
+              "end_col_offset": 5,
+              "end_lineno": 7,
+              "func": {
+                "ast_class": "Name",
+                "col_offset": 11,
+                "ctx": {
+                  "ast_class": "Load"
+                },
+                "end_col_offset": 15,
+                "end_lineno": 3,
+                "id": "max_",
+                "lineno": 3
+              },
+              "keywords": [],
+              "lineno": 3
+            }
+          }
+        ],
+        "col_offset": 0,
+        "decorator_list": [],
+        "end_col_offset": 5,
+        "end_lineno": 7,
+        "lineno": 1,
+        "name": "formula"
+      },
+      "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+      "source_code": "def formula(tax_unit, period, parameters):\n    # not accurate, for demo\n    return max_(\n        0,\n        tax_unit(\"earned\", period)\n        - tax_unit(\"standard_deduction\", period),\n    )\n",
+      "start_line_number": 130,
+      "stop_line_number": 137,
+      "variables": [
+        "earned",
+        "standard_deduction"
+      ]
+    }
+  },
+  "json_type": "number",
+  "name": "TaxInc",
+  "referring_variables": [
+    "income"
+  ],
+  "start_line_number": 125,
+  "stop_line_number": 137,
+  "unit": "currency",
+  "value_type": "float"
+}

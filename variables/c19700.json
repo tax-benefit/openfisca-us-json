@@ -1,0 +1,16 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch A: Charity contributions deducted (component of pre-limitation c21060 total)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c19700",
+  "referring_variables": [
+    "standard_deduction"
+  ],
+  "start_line_number": 638,
+  "stop_line_number": 643,
+  "value_type": "float"
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Health savings account deduction from Form 8889",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e03290",
+  "start_line_number": 351,
+  "stop_line_number": 356,
+  "value_type": "float"
+}

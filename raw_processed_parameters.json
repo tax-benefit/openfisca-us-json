@@ -1,0 +1,770 @@
+{
+  "file_path": "/home/manou/.cache/pypoetry/virtualenvs/openfisca-ast-r5fXUtoJ-py3.9/lib/python3.9/site-packages/openfisca_us/parameters",
+  "name": "",
+  "tax": {
+    "capital_gains": {
+      "bracket": {
+        "description": "Capital gains tax rates and brackets for tax units",
+        "file_path": "tax/capital_gains/bracket.yaml",
+        "metadata": {
+          "unit": "/1"
+        },
+        "name": "tax.capital_gains.bracket",
+        "rates": {
+          "1": {
+            "file_path": "tax/capital_gains/bracket.yaml",
+            "name": "tax.capital_gains.bracket.rates.1",
+            "values": {
+              "2013-01-01": {
+                "value": 0
+              }
+            }
+          },
+          "2": {
+            "file_path": "tax/capital_gains/bracket.yaml",
+            "name": "tax.capital_gains.bracket.rates.2",
+            "values": {
+              "2013-01-01": {
+                "value": 0.15
+              }
+            }
+          },
+          "3": {
+            "file_path": "tax/capital_gains/bracket.yaml",
+            "name": "tax.capital_gains.bracket.rates.3",
+            "values": {
+              "2013-01-01": {
+                "value": 0.2
+              }
+            }
+          },
+          "file_path": "tax/capital_gains/bracket.yaml",
+          "name": "tax.capital_gains.bracket.rates"
+        },
+        "thresholds": {
+          "1": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.1.HOUSEHOLD_HEAD",
+              "values": {
+                "2019-01-01": {
+                  "value": 52750
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.1.JOINT",
+              "values": {
+                "2019-01-01": {
+                  "value": 78750
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.1.SEPARATE",
+              "values": {
+                "2019-01-01": {
+                  "value": 39375
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.1.SINGLE",
+              "values": {
+                "2019-01-01": {
+                  "value": 39375
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.1.WIDOW",
+              "values": {
+                "2019-01-01": {
+                  "value": 78750
+                }
+              }
+            },
+            "file_path": "tax/capital_gains/bracket.yaml",
+            "name": "tax.capital_gains.bracket.thresholds.1"
+          },
+          "2": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.2.HOUSEHOLD_HEAD",
+              "values": {
+                "2019-01-01": {
+                  "value": 461700
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.2.JOINT",
+              "values": {
+                "2019-01-01": {
+                  "value": 488850
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.2.SEPARATE",
+              "values": {
+                "2019-01-01": {
+                  "value": 244425
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.2.SINGLE",
+              "values": {
+                "2019-01-01": {
+                  "value": 434550
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/capital_gains/bracket.yaml",
+              "name": "tax.capital_gains.bracket.thresholds.2.WIDOW",
+              "values": {
+                "2019-01-01": {
+                  "value": 488850
+                }
+              }
+            },
+            "file_path": "tax/capital_gains/bracket.yaml",
+            "name": "tax.capital_gains.bracket.thresholds.2"
+          },
+          "file_path": "tax/capital_gains/bracket.yaml",
+          "name": "tax.capital_gains.bracket.thresholds"
+        }
+      },
+      "file_path": "tax/capital_gains",
+      "name": "tax.capital_gains"
+    },
+    "deductions": {
+      "file_path": "tax/deductions",
+      "itemized": {
+        "charity": {
+          "allow_nonitemizers": {
+            "description": "Whether standard deduction filers are allowed to take the charitable contributions deduction",
+            "file_path": "tax/deductions/itemized/charity/allow_nonitemizers.yaml",
+            "metadata": {
+              "unit": "bool"
+            },
+            "name": "tax.deductions.itemized.charity.allow_nonitemizers",
+            "values": {
+              "2013-01-01": {
+                "value": false
+              },
+              "2020-01-01": {
+                "value": true
+              },
+              "2021-01-01": {
+                "value": false
+              }
+            }
+          },
+          "file_path": "tax/deductions/itemized/charity",
+          "name": "tax.deductions.itemized.charity",
+          "nonitemizers_max": {
+            "description": "Maximum amount for charitable deductions for non-itemizers",
+            "file_path": "tax/deductions/itemized/charity/nonitemizers_max.yaml",
+            "metadata": {
+              "unit": "currency-USD"
+            },
+            "name": "tax.deductions.itemized.charity.nonitemizers_max",
+            "values": {
+              "2013-01-01": {
+                "value": 0
+              },
+              "2020-01-01": {
+                "value": 300
+              },
+              "2021-01-01": {
+                "value": 0
+              }
+            }
+          }
+        },
+        "file_path": "tax/deductions/itemized",
+        "name": "tax.deductions.itemized"
+      },
+      "name": "tax.deductions",
+      "standard": {
+        "aged_or_blind": {
+          "age_threshold": {
+            "description": "Age at which a person qualifies for the aged standard deduction addition",
+            "file_path": "tax/deductions/standard/aged_or_blind/age_threshold.yaml",
+            "metadata": {
+              "unit": "year"
+            },
+            "name": "tax.deductions.standard.aged_or_blind.age_threshold",
+            "values": {
+              "0001-01-01": {
+                "value": 65
+              }
+            }
+          },
+          "amount": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+              "name": "tax.deductions.standard.aged_or_blind.amount.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 1600
+                },
+                "2019-01-01": {
+                  "value": 1650
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+              "name": "tax.deductions.standard.aged_or_blind.amount.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 1300
+                },
+                "2019-01-01": {
+                  "value": 1300
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+              "name": "tax.deductions.standard.aged_or_blind.amount.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 1300
+                },
+                "2019-01-01": {
+                  "value": 1300
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+              "name": "tax.deductions.standard.aged_or_blind.amount.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 1600
+                },
+                "2019-01-01": {
+                  "value": 1650
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+              "name": "tax.deductions.standard.aged_or_blind.amount.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 1300
+                },
+                "2019-01-01": {
+                  "value": 1300
+                }
+              }
+            },
+            "description": "Additional standard deduction for blind and aged",
+            "file_path": "tax/deductions/standard/aged_or_blind/amount.yaml",
+            "metadata": {
+              "unit": "currency-USD"
+            },
+            "name": "tax.deductions.standard.aged_or_blind.amount"
+          },
+          "file_path": "tax/deductions/standard/aged_or_blind",
+          "name": "tax.deductions.standard.aged_or_blind"
+        },
+        "amount": {
+          "HOUSEHOLD_HEAD": {
+            "file_path": "tax/deductions/standard/amount.yaml",
+            "name": "tax.deductions.standard.amount.HOUSEHOLD_HEAD",
+            "values": {
+              "2018-01-01": {
+                "value": 18000
+              },
+              "2019-01-01": {
+                "value": 18350
+              }
+            }
+          },
+          "JOINT": {
+            "file_path": "tax/deductions/standard/amount.yaml",
+            "name": "tax.deductions.standard.amount.JOINT",
+            "values": {
+              "2018-01-01": {
+                "value": 24000
+              },
+              "2019-01-01": {
+                "value": 24400
+              }
+            }
+          },
+          "SEPARATE": {
+            "file_path": "tax/deductions/standard/amount.yaml",
+            "name": "tax.deductions.standard.amount.SEPARATE",
+            "values": {
+              "2018-01-01": {
+                "value": 12000
+              },
+              "2019-01-01": {
+                "value": 12200
+              }
+            }
+          },
+          "SINGLE": {
+            "file_path": "tax/deductions/standard/amount.yaml",
+            "name": "tax.deductions.standard.amount.SINGLE",
+            "values": {
+              "2018-01-01": {
+                "value": 12000
+              },
+              "2019-01-01": {
+                "value": 12200
+              }
+            }
+          },
+          "WIDOW": {
+            "file_path": "tax/deductions/standard/amount.yaml",
+            "name": "tax.deductions.standard.amount.WIDOW",
+            "values": {
+              "2018-01-01": {
+                "value": 24000
+              },
+              "2019-01-01": {
+                "value": 24400
+              }
+            }
+          },
+          "description": "Standard deduction amount for different tax units",
+          "file_path": "tax/deductions/standard/amount.yaml",
+          "metadata": {
+            "unit": "currency-USD"
+          },
+          "name": "tax.deductions.standard.amount"
+        },
+        "dependent": {
+          "additional_earned_income": {
+            "description": "Addition to earned income for the standard deduction if claimed as a dependent",
+            "file_path": "tax/deductions/standard/dependent/additional_earned_income.yaml",
+            "metadata": {
+              "unit": "currency-USD"
+            },
+            "name": "tax.deductions.standard.dependent.additional_earned_income",
+            "values": {
+              "0001-01-01": {
+                "value": 350
+              }
+            }
+          },
+          "amount": {
+            "description": "Maximum standard deduction for dependents",
+            "file_path": "tax/deductions/standard/dependent/amount.yaml",
+            "metadata": {
+              "unit": "currency-USD"
+            },
+            "name": "tax.deductions.standard.dependent.amount",
+            "values": {
+              "2018-01-01": {
+                "value": 1050
+              },
+              "2019-01-01": {
+                "value": 1100
+              }
+            }
+          },
+          "file_path": "tax/deductions/standard/dependent",
+          "name": "tax.deductions.standard.dependent"
+        },
+        "file_path": "tax/deductions/standard",
+        "name": "tax.deductions.standard"
+      }
+    },
+    "file_path": "tax",
+    "income": {
+      "bracket": {
+        "description": "Income tax rates and brackets for tax units",
+        "file_path": "tax/income/bracket.yaml",
+        "metadata": {
+          "unit": "/1"
+        },
+        "name": "tax.income.bracket",
+        "rates": {
+          "1": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.1",
+            "values": {
+              "2018-01-01": {
+                "value": 0.1
+              }
+            }
+          },
+          "2": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.2",
+            "values": {
+              "2018-01-01": {
+                "value": 0.12
+              }
+            }
+          },
+          "3": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.3",
+            "values": {
+              "2018-01-01": {
+                "value": 0.22
+              }
+            }
+          },
+          "4": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.4",
+            "values": {
+              "2018-01-01": {
+                "value": 0.24
+              }
+            }
+          },
+          "5": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.5",
+            "values": {
+              "2018-01-01": {
+                "value": 0.32
+              }
+            }
+          },
+          "6": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.6",
+            "values": {
+              "2018-01-01": {
+                "value": 0.35
+              }
+            }
+          },
+          "7": {
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.rates.7",
+            "values": {
+              "2018-01-01": {
+                "value": 0.37
+              }
+            }
+          },
+          "file_path": "tax/income/bracket.yaml",
+          "name": "tax.income.bracket.rates"
+        },
+        "thresholds": {
+          "1": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.1.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 13600
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.1.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 19050
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.1.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 9525
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.1.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 9525
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.1.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 19050
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.1"
+          },
+          "2": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.2.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 51800
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.2.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 77400
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.2.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 38700
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.2.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 38700
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.2.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 77400
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.2"
+          },
+          "3": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.3.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 82500
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.3.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 165000
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.3.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 82500
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.3.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 82500
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.3.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 165000
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.3"
+          },
+          "4": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.4.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 157500
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.4.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 315000
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.4.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 157500
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.4.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 157500
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.4.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 315000
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.4"
+          },
+          "5": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.5.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 200000
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.5.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 400000
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.5.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 200000
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.5.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 200000
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.5.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 400000
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.5"
+          },
+          "6": {
+            "HOUSEHOLD_HEAD": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.6.HOUSEHOLD_HEAD",
+              "values": {
+                "2018-01-01": {
+                  "value": 500000
+                }
+              }
+            },
+            "JOINT": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.6.JOINT",
+              "values": {
+                "2018-01-01": {
+                  "value": 600000
+                }
+              }
+            },
+            "SEPARATE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.6.SEPARATE",
+              "values": {
+                "2018-01-01": {
+                  "value": 300000
+                }
+              }
+            },
+            "SINGLE": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.6.SINGLE",
+              "values": {
+                "2018-01-01": {
+                  "value": 500000
+                }
+              }
+            },
+            "WIDOW": {
+              "file_path": "tax/income/bracket.yaml",
+              "name": "tax.income.bracket.thresholds.6.WIDOW",
+              "values": {
+                "2018-01-01": {
+                  "value": 600000
+                }
+              }
+            },
+            "file_path": "tax/income/bracket.yaml",
+            "name": "tax.income.bracket.thresholds.6"
+          },
+          "file_path": "tax/income/bracket.yaml",
+          "name": "tax.income.bracket.thresholds"
+        }
+      },
+      "file_path": "tax/income",
+      "name": "tax.income"
+    },
+    "name": "tax"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "CPS line number for the person record of the head of the tax filing unit (not used in tax-calculation logic)",
+  "dtype": "int32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "integer",
+  "name": "a_lineno",
+  "start_line_number": 585,
+  "stop_line_number": 590,
+  "value_type": "int"
+}

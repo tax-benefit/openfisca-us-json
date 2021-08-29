@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Amount of UBI benefit included in AGI",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "taxable_ubi",
+  "start_line_number": 931,
+  "stop_line_number": 936,
+  "value_type": "float"
+}

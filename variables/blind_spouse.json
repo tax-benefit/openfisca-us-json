@@ -1,0 +1,17 @@
+{
+  "default_value": false,
+  "definition_period": "year",
+  "documentation": "1 if spouse is blind; otherwise 0",
+  "dtype": "bool_",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "is_period_size_independent": true,
+  "json_type": "boolean",
+  "name": "blind_spouse",
+  "referring_variables": [
+    "aged_blind_extra_standard_deduction"
+  ],
+  "start_line_number": 116,
+  "stop_line_number": 121,
+  "value_type": "bool"
+}

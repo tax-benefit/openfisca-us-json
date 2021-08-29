@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Sch A: State and local income taxes deductible, capped as a decimal fraction of AGI",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "e18400_capped",
+  "start_line_number": 610,
+  "stop_line_number": 615,
+  "value_type": "float"
+}

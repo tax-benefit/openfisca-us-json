@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Imputed Medicare benefits expressed as the actuarial value of Medicare health insurance",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "mcare_ben",
+  "start_line_number": 643,
+  "stop_line_number": 648,
+  "value_type": "float"
+}

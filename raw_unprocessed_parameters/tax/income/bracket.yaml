@@ -1,0 +1,159 @@
+description: Income tax rates and brackets for tax units
+metadata:
+  unit: /1
+rates:
+  1:
+    values:
+      2018-01-01:
+        value: 0.1
+  2:
+    values:
+      2018-01-01:
+        value: 0.12
+  3:
+    values:
+      2018-01-01:
+        value: 0.22
+  4:
+    values:
+      2018-01-01:
+        value: 0.24
+  5:
+    values:
+      2018-01-01:
+        value: 0.32
+  6:
+    values:
+      2018-01-01:
+        value: 0.35
+  7:
+    values:
+      2018-01-01:
+        value: 0.37
+thresholds:
+  1:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 13600
+    JOINT:
+      values:
+        2018-01-01:
+          value: 19050
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 9525
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 9525
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 19050
+  2:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 51800
+    JOINT:
+      values:
+        2018-01-01:
+          value: 77400
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 38700
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 38700
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 77400
+  3:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 82500
+    JOINT:
+      values:
+        2018-01-01:
+          value: 165000
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 82500
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 82500
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 165000
+  4:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 157500
+    JOINT:
+      values:
+        2018-01-01:
+          value: 315000
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 157500
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 157500
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 315000
+  5:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 200000
+    JOINT:
+      values:
+        2018-01-01:
+          value: 400000
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 200000
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 200000
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 400000
+  6:
+    HOUSEHOLD_HEAD:
+      values:
+        2018-01-01:
+          value: 500000
+    JOINT:
+      values:
+        2018-01-01:
+          value: 600000
+    SEPARATE:
+      values:
+        2018-01-01:
+          value: 300000
+    SINGLE:
+      values:
+        2018-01-01:
+          value: 500000
+    WIDOW:
+      values:
+        2018-01-01:
+          value: 600000

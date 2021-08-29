@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Social security (OASDI) benefits included in AGI",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c02500",
+  "start_line_number": 383,
+  "stop_line_number": 388,
+  "value_type": "float"
+}

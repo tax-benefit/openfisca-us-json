@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Domestic production activities from Form 8903",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
+  "json_type": "number",
+  "name": "e03240",
+  "start_line_number": 337,
+  "stop_line_number": 342,
+  "value_type": "float"
+}

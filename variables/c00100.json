@@ -1,0 +1,13 @@
+{
+  "default_value": 0,
+  "definition_period": "year",
+  "documentation": "Adjusted Gross Income (AGI)",
+  "dtype": "float32",
+  "entity": "tax_unit",
+  "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
+  "json_type": "number",
+  "name": "c00100",
+  "start_line_number": 367,
+  "stop_line_number": 372,
+  "value_type": "float"
+}

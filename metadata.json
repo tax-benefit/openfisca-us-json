@@ -1,0 +1,7 @@
+{
+  "currency": "$",
+  "name": "openfisca-us",
+  "parameters_dir": "openfisca_us/parameters",
+  "repository_url": "https://github.com/nikhilwoodruff/openfisca-us",
+  "version": "0.0.1"
+}
