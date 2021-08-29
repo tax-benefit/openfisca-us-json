@@ -1,5 +1,5 @@
 {
-  "file_path": "/home/manou/.cache/pypoetry/virtualenvs/openfisca-ast-r5fXUtoJ-py3.9/lib/python3.9/site-packages/openfisca_us/parameters",
+  "file_path": "/home/manou/.cache/pypoetry/virtualenvs/openfisca-json-extractor-3pYDVlun-py3.9/lib/python3.9/site-packages/openfisca_us/parameters",
   "name": "",
   "tax": {
     "capital_gains": {
@@ -765,6 +765,18 @@
       "file_path": "tax/income",
       "name": "tax.income"
     },
-    "name": "tax"
+    "name": "tax",
+    "payroll": {
+      "FICA": {
+        "file_path": "tax/payroll/FICA",
+        "medicare": {
+          "file_path": "tax/payroll/FICA/medicare",
+          "name": "tax.payroll.FICA.medicare"
+        },
+        "name": "tax.payroll.FICA"
+      },
+      "file_path": "tax/payroll",
+      "name": "tax.payroll"
+    }
   }
 }
