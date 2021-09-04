@@ -45,7 +45,7 @@
           {
             "ast_class": "Return",
             "col_offset": 4,
-            "end_col_offset": 66,
+            "end_col_offset": 65,
             "end_lineno": 2,
             "lineno": 2,
             "value": {
@@ -83,15 +83,15 @@
                 {
                   "ast_class": "Constant",
                   "col_offset": 44,
-                  "end_col_offset": 54,
+                  "end_col_offset": 53,
                   "end_lineno": 2,
                   "lineno": 2,
-                  "value": "e02100ps"
+                  "value": "e02100s"
                 },
                 {
                   "ast_class": "Constant",
-                  "col_offset": 56,
-                  "end_col_offset": 65,
+                  "col_offset": 55,
+                  "end_col_offset": 64,
                   "end_lineno": 2,
                   "lineno": 2,
                   "value": "k1bx14s"
@@ -99,7 +99,7 @@
               ],
               "ast_class": "Call",
               "col_offset": 11,
-              "end_col_offset": 66,
+              "end_col_offset": 65,
               "end_lineno": 2,
               "func": {
                 "ast_class": "Name",
@@ -119,20 +119,26 @@
         ],
         "col_offset": 0,
         "decorator_list": [],
-        "end_col_offset": 66,
+        "end_col_offset": 65,
         "end_lineno": 2,
         "lineno": 1,
         "name": "formula"
       },
       "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
-      "source_code": "def formula(tax_unit, period, parameters):\n    return add(tax_unit, period, \"e00900s\", \"e02100ps\", \"k1bx14s\")\n",
+      "source_code": "def formula(tax_unit, period, parameters):\n    return add(tax_unit, period, \"e00900s\", \"e02100s\", \"k1bx14s\")\n",
       "start_line_number": 99,
-      "stop_line_number": 101
+      "stop_line_number": 101,
+      "variables": [
+        "e00900s",
+        "e02100s",
+        "k1bx14s"
+      ]
     }
   },
   "json_type": "number",
   "name": "sey_s",
   "start_line_number": 94,
   "stop_line_number": 101,
+  "unit": "currency",
   "value_type": "float"
 }

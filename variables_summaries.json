@@ -1243,8 +1243,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "e00900p",
+    "referring_variables": [
+      "sey_p"
+    ],
     "start_line_number": 218,
     "stop_line_number": 223,
+    "unit": "currency",
     "value_type": "float"
   },
   "e00900s": {
@@ -1256,8 +1260,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "e00900s",
+    "referring_variables": [
+      "sey_s"
+    ],
     "start_line_number": 225,
     "stop_line_number": 230,
+    "unit": "currency",
     "value_type": "float"
   },
   "e01100": {
@@ -1360,8 +1368,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "e02100p",
+    "referring_variables": [
+      "sey_p"
+    ],
     "start_line_number": 281,
     "stop_line_number": 286,
+    "unit": "currency",
     "value_type": "float"
   },
   "e02100s": {
@@ -1373,8 +1385,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "e02100s",
+    "referring_variables": [
+      "sey_s"
+    ],
     "start_line_number": 288,
     "stop_line_number": 293,
+    "unit": "currency",
     "value_type": "float"
   },
   "e02300": {
@@ -2338,8 +2354,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "k1bx14p",
+    "referring_variables": [
+      "sey_p"
+    ],
     "start_line_number": 622,
     "stop_line_number": 627,
+    "unit": "currency",
     "value_type": "float"
   },
   "k1bx14s": {
@@ -2351,8 +2371,12 @@
     "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
     "json_type": "number",
     "name": "k1bx14s",
+    "referring_variables": [
+      "sey_s"
+    ],
     "start_line_number": 629,
     "stop_line_number": 634,
+    "unit": "currency",
     "value_type": "float"
   },
   "lumpsum_tax": {
@@ -2924,13 +2948,19 @@
       "0001-01-01": {
         "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
         "start_line_number": 90,
-        "stop_line_number": 92
+        "stop_line_number": 92,
+        "variables": [
+          "e00900p",
+          "e02100p",
+          "k1bx14p"
+        ]
       }
     },
     "json_type": "number",
     "name": "sey_p",
     "start_line_number": 85,
     "stop_line_number": 92,
+    "unit": "currency",
     "value_type": "float"
   },
   "sey_s": {
@@ -2943,13 +2973,19 @@
       "0001-01-01": {
         "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
         "start_line_number": 99,
-        "stop_line_number": 101
+        "stop_line_number": 101,
+        "variables": [
+          "e00900s",
+          "e02100s",
+          "k1bx14s"
+        ]
       }
     },
     "json_type": "number",
     "name": "sey_s",
     "start_line_number": 94,
     "stop_line_number": 101,
+    "unit": "currency",
     "value_type": "float"
   },
   "snap_ben": {

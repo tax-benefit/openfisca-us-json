@@ -7,7 +7,11 @@
   "file_path": "/openfisca_us/variables/finance/tax/inputs.py",
   "json_type": "number",
   "name": "k1bx14p",
+  "referring_variables": [
+    "sey_p"
+  ],
   "start_line_number": 622,
   "stop_line_number": 627,
+  "unit": "currency",
   "value_type": "float"
 }

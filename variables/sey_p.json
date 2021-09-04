@@ -127,12 +127,18 @@
       "file_path": "/openfisca_us/variables/finance/tax/outputs.py",
       "source_code": "def formula(tax_unit, period, parameters):\n    return add(tax_unit, period, \"e00900p\", \"e02100p\", \"k1bx14p\")\n",
       "start_line_number": 90,
-      "stop_line_number": 92
+      "stop_line_number": 92,
+      "variables": [
+        "e00900p",
+        "e02100p",
+        "k1bx14p"
+      ]
     }
   },
   "json_type": "number",
   "name": "sey_p",
   "start_line_number": 85,
   "stop_line_number": 92,
+  "unit": "currency",
   "value_type": "float"
 }

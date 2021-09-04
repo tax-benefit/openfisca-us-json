@@ -2,6 +2,18 @@
   "TaxInc": {
     "label": "TaxInc"
   },
+  "e00900p": {
+    "label": "e00900p"
+  },
+  "e00900s": {
+    "label": "e00900s"
+  },
+  "e02100p": {
+    "label": "e02100p"
+  },
+  "e02100s": {
+    "label": "e02100s"
+  },
   "income": {
     "children": [
       {
@@ -9,5 +21,39 @@
       }
     ],
     "label": "income"
+  },
+  "k1bx14p": {
+    "label": "k1bx14p"
+  },
+  "k1bx14s": {
+    "label": "k1bx14s"
+  },
+  "sey_p": {
+    "children": [
+      {
+        "name": "e00900p"
+      },
+      {
+        "name": "e02100p"
+      },
+      {
+        "name": "k1bx14p"
+      }
+    ],
+    "label": "sey_p"
+  },
+  "sey_s": {
+    "children": [
+      {
+        "name": "e00900s"
+      },
+      {
+        "name": "e02100s"
+      },
+      {
+        "name": "k1bx14s"
+      }
+    ],
+    "label": "sey_s"
   }
 }
