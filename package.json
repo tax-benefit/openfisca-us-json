@@ -1,0 +1,27 @@
+{
+  "name": "@tax-benefit/openfisca-us-json",
+  "version": "0.1.1",
+  "description": "JSON & YAML data extracted from OpenFisca-US source code (parameters, variables, etc)",
+  "keywords": [
+    "data",
+    "legislation",
+    "OpenFisca",
+    "simulator",
+    "tax",
+    "tax-benefit",
+    "USA"
+  ],
+  "author": "Emmanuel Raviart <emmanuel@raviart.com>",
+  "bugs": {
+    "url": "https://git.en-root.org/tax-benefit/openfisca-us-json/issues"
+  },
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://git.en-root.org/tax-benefit/openfisca-us-json.git"
+  },
+  "main": "metadata.json",
+  "publishConfig": {
+    "access": "public"
+  }
+}

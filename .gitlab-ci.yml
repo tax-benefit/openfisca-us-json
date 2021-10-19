@@ -1,0 +1,18 @@
+default:
+  image: node:16-bullseye
+
+manual_pipeline:
+  rules:
+    # Execute CI when a pipeline is manually triggered using the web interface.
+    - if: $CI_PIPELINE_SOURCE == "web" && $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  script:
+    # Trigger branch tax-benefit of project tax-benefit/openfisca-json-model.
+    - curl --request POST --form ref=tax-benefit --form token=${CI_JOB_TOKEN} --form "variables[NAME]=us" --form "variables[PUBLISH_JSON]=true" "https://git.en-root.org/api/v4/projects/138/trigger/pipeline"
+
+merge_request:
+  rules:
+    # Execute CI when user requests a merge request to default (master) branch.
+    - if: $CI_MERGE_REQUEST_IID && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH
+  script:
+    # Trigger branch tax-benefit of project tax-benefit/openfisca-json-model.
+    - curl --request POST --form ref=tax-benefit --form token=${CI_JOB_TOKEN} --form "variables[NAME]=us" --form "variables[JSON_BRANCH]=${CI_COMMIT_REF_NAME}" "https://git.en-root.org/api/v4/projects/138/trigger/pipeline"
